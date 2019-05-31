@@ -1,0 +1,152 @@
+.beginAfbeelding {
+    display: inline;
+    width: 1301px;
+    height: 329px;
+    box-shadow: 0 3px 3px 3px var(--c-pirate-donkergrijs);
+    margin-bottom: 55px;
+    opacity: 1;
+}
+
+.hiddenGsm {
+    display: none;
+}
+
+.menu {
+    width: 30px;
+    height: 22px;
+    margin: 10px 0 0 36px;
+}
+
+.fotoMenu {
+    width: 100%;
+}
+
+.hiddenOtherStuff {
+    display: none;
+    padding-right: 0;
+}
+
+.fotoProfiel {
+    width: 100%;
+}
+
+.profiel {
+    width: 30px;
+    height: 22px;
+    margin: 10px 0 0 36px;
+}
+
+.fotoLookingGlass {
+    width: 100%;
+}
+
+.lookingGlass {
+    width: 30px;
+    height: 22px;
+    margin: 10px 0 0 36px;
+}
+
+
+.logoDiv {
+    margin-left: 10px;
+    max-height: 157px;
+    width: 170px; 
+    margin-right: 0px;
+}
+
+.logo {
+    width: auto;
+    height: 100%; 
+    object-fit: contain;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    position: relative;
+    top: -8px;
+}
+
+.driekleuren {
+    height: 22px;
+    width: 22px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    border: 2px var(--c-pirate-donkergrijs) solid;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.lookingglass {
+    height: 17px;
+    width: 17px;
+}
+
+.beginAfbeelding {
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 32px auto 0 auto;
+}
+
+.beginAfbeeldingDiv {
+    margin: 20px 0 0 0;
+    display: inline;
+    max-width: 1301px;
+    max-height: 329px;
+    box-shadow: 0 2px 2px 2px var(--c-pirate-donkergrijs);
+    margin-bottom: 55px;
+    overflow: hidden;
+}
+
+.arrow {
+    width: auto;
+    height: 32px;
+    margin: auto 0 auto 0;
+    padding-left: 30px;
+}
+
+.belgie {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 198px;;
+    /* margin: 0 auto; */
+    overflow:hidden;
+    background-size: 100%;
+}
+
+.belgieFoto {
+    height: 100%;
+}
+
+.gent {
+    margin-right: 150px;
+}
+
+.leuven {
+    margin-left: 150px;
+}
+
+.tekeningDiv {
+margin: 0 auto;
+max-width: 1081px;
+}
+
+.tekening {
+    width: 100%;
+}
+
+.fotoHuisje:hover {
+    transform-origin: center center;
+    transform:scale(1.2,1.2);
+}
+
+.divFotoHuisje {
+    contain: content;
+}
+
+.close {
+    height: 22px;
+    width: 22px;
+}
