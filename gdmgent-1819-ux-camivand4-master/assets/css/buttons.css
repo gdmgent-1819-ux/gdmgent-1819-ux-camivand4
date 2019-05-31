@@ -1,0 +1,109 @@
+h1 {
+    padding: 15px 10px 5px 10px;
+    /* font-size: 20px; */
+    font-size: 1.2rem;
+    --c-shadow: var(--c-ahs-grijs-donker-alpha);
+    color: var(--c-pirate-donkergrijs);
+    font-family: var(--f-main);
+    user-select: none;
+}
+
+h1:hover {
+    background-color: var(--c-pirate-lichtbruin);
+    color:var(--c-pirate-extra);
+}
+
+h2 {
+    padding: 20px 20px 0 0;
+    font-size: 1rem;
+    font-family: var(--f-main);
+    color: var(--c-pirate-donkergrijs);
+    display: inline;
+    user-select: none;
+}
+
+h2:hover {
+    color:var(--c-pirate-extra);
+}
+
+h2:active {
+    color:var(--c-pirate-blauw);
+}
+
+.border {
+    border: 2px solid var(--c-pirate-donkergrijs);
+    padding: 5px 4px 5px 4px;
+}
+
+.border:hover {
+    background-color: var(--c-pirate-lichtbruin);
+}
+
+.pijltje:hover {
+    font-weight: bolder;
+    user-select: none;
+}
+
+.cijferDag {
+    width: 15%;
+    float: left;
+    margin: 5px;
+    background-color: var(--c-pirate-donkerbruin);
+    text-align: center;
+    user-select: none;
+}
+
+.cijferDag:active {
+    background-color: var(--c-pirate-donkerdonkerbruin);
+}
+
+.zoeken {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--c-pirate-rood);
+    padding: 0;
+    margin-top: 54px;
+    font-size: 24px;
+    font-family: var(--f-main);
+    color: var(--c-pirate-donkergrijs);
+}
+
+.zoeken:active {
+    background-color: var(--c-pirate-donkerrood);
+}
+
+.lust {
+    border-right: solid var(--c-pirate-donkergrijs) 2px;
+    color: var(--c-pirate-zwart);
+    font-family: var(--f-semiBold);
+}
+
+.lustSpeciaal {
+    color: var(--c-pirate-zwart);
+    font-family: var(--f-semiBold);
+}
+
+.lust:hover {
+    color: var(--c-pirate-blauw);
+}
+
+.lustSpeciaal:hover {
+    color: var(--c-pirate-blauw);
+}
+
+.tekens {
+    border-radius: 50%;
+    border: 2px var(--c-pirate-donkergrijs) solid;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    user-select: none;
+}
+
+.bruinebalk:active {
+    background-color: var(--c-pirate-donkerbruin);  
+}
+
+.donkerbruinebalk:active {
+    background-color: var(--c-pirate-donkerdonkerbruin);
+}

@@ -1,0 +1,464 @@
+@import url('./images.css');
+@import url('./variables.css');
+@import url('./buttons.css');
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+.openklap {
+    display: none;
+    position: absolute;
+    width: 70%;
+    padding: 20px 25px 0 25px;
+    background-color: var(--c-pirate-donkergrijs);
+    z-index: +1;
+    height: 100%;
+    font-family: var(--f-semiBold);
+    font-size: 20px;
+    color: var(--c-pirate-donkergrijs);
+}
+
+.bruinebalk {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: var(--c-pirate-lichtbruin);    
+}
+
+#donkerbruin {
+    display: none;
+}
+
+.donkerbruinebalk {
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: var(--c-pirate-donkerbruin);  
+}
+
+html {
+    width: 100%;
+    height: auto;  
+    background-color: var(--c-pirate-lichtbruin);
+    font-family: var(--f-main);
+}
+
+.body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* max-width: 1366px; */
+}
+
+#gent {
+    height: 33%;
+}
+
+#brussel {
+    height: 33%;
+}
+
+#leuven {
+    height: 33%;
+}
+
+.headerdiv {
+    width: 100%;
+    display: flex;
+    /* min-height: 42px; */
+    max-height: 157px;
+    background-color: var(--c-pirate-donkerbruin);
+    padding: 0;
+    box-shadow: 0 0 5px 0 solid var(--c-pirate-donkergrijs);
+}
+
+.headerTiteltjes {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-family: var(--f-semiBold);
+    flex-direction: row;
+    padding: 50px 0 0 20px;
+}
+
+.headerRechterkant {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px 0 auto;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    /* display: inline-block; */
+
+    box-shadow: -5px 0 5px -5px var(--c-pirate-zwart), 5px 0 5px -5px var(--c-pirate-zwart), 0 -5px 5px -5px var(--c-pirate-zwart);
+    background: url(../images/transparantachtergrond.png);
+    background-size: 100%;
+}
+
+.planning {    
+    margin: 0 auto 7px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1056px;
+    user-select: none;
+}
+
+.planning2 {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--c-pirate-lichtbruin);
+    padding: 0;
+    margin-top: 54px;
+    font-size: 24px;
+    font-family: var(--f-main);
+    color: var(--c-pirate-donkergrijs);
+}
+
+.border2 {
+    display: flex;
+    border: 3px solid var(--c-pirate-donkergrijs);
+    border-radius: 5%;
+    padding: 16px 50.2px 16px 50.2px;
+}
+
+.planning3 {
+    margin: 0 auto;
+    display: none;
+    flex-direction: row;
+    max-width: 1056px;
+    border: 3px solid var(--c-pirate-donkergrijs);
+    border-radius: 2%;
+    margin-bottom: 54px;
+}
+
+.planning4 {
+    margin: 0 auto;
+    display: none;
+    flex-direction: column;
+    max-width: 520px;
+    border: 3px solid var(--c-pirate-donkergrijs);
+    border-radius: 2%;
+    margin-bottom: 54px;
+    padding: 18px;
+}
+
+.planning5 {
+    margin: 0 auto;
+    display: none;
+    flex-direction: column;
+    max-width: 303px;
+    border: 3px solid var(--c-pirate-donkergrijs);
+    border-radius: 2%;
+    margin-bottom: 54px;
+}
+
+.donkereKolom {
+    padding: 0 18px 0 18px;    
+    background-color: var(--c-pirate-donkerbruin);
+    display: flex;
+    flex-direction: row;
+}
+
+.lichteKolom {
+    padding: 0 18px 0 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.optelling {
+    margin-left: auto;
+    display: flex;
+}
+
+.optelCijfer {
+    padding: 0 10px 0 10px;
+}
+
+.mei {
+    display: flex; 
+    flex-direction: row; 
+    margin: 0 auto;
+    font-size: 24px;
+    /* margin-bottom: -20px; */
+}
+
+.cijfers {
+    display: flex; 
+    flex-direction: row; 
+}
+
+.dagen {
+    display: flex; 
+    flex-direction: row; 
+    margin-bottom: 10px;
+}
+
+.dag {
+    padding: 2px;
+    margin: 0;
+    background-color: var(--c-pirate-donkerbruin);
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+
+.kiesStad {
+    contain: content;
+    font-size: 24px;
+    font-family: var(--f-main);
+    color: var(--c-pirate-donkergrijs);
+    border-right: 3px solid var(--c-pirate-donkergrijs);
+    padding: 0 60px 0 10px;
+    user-select: none;
+    background-color: var(--c-pirate-donkerbruin);
+}
+
+.huisjes {
+    display: flex;
+    max-width: 1081px;
+    height: 421px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.huisje {
+    background-color: var(--c-pirate-donkerbruin);
+    margin-left: 19px;
+    padding-top: 23px;
+    padding-left: 30px;
+    width: 641px;
+}
+
+.tekstHuisjes {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+ul { 
+    padding:0; 
+    margin: 0; 
+    list-style: none;
+    font-size: 20px;
+    font-family: var(--f-semiBold);
+    color: var(--c-pirate-donkergrijs);
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--c-pirate-donkergrijs);
+    font-weight: bold;
+}
+
+.mapText {
+    font-size: 40px;
+    color: var(--c-pirate-donkergrijs);
+    border: 2px solid var(--c-pirate-donkergrijs);
+    background-color: var(--c-pirate-donkerbruin);
+    text-align:center
+}
+
+.mapTextDiv {
+    max-width: 222px; 
+    height: 57px;
+    margin: 0 auto;
+}
+
+.map {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+footer {
+    display: flex;;
+    background-color: var(--c-pirate-donkerbruin);
+    height: 282px;
+    box-shadow: 0px -4px 1px var(--c-pirate-donkergrijs);
+    padding: 20px 63px 0 63px;
+    width: 100%;
+}
+
+.footer {
+    padding-right: 5%;
+    width: 25%;
+}
+
+h4 {
+    border-right: solid var(--c-pirate-donkergrijs) 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.listje {
+    padding-bottom: 23px;
+}
+
+.test {
+    width: 100%;
+}
+
+@media (max-width: 575.99999px) {
+    /* html[data-debug] body::after {
+        content: 'extra small device';
+    } */
+
+    .beginAfbeelding {
+        margin-bottom: 10px;
+    }
+
+    .fotoHuisje {
+        width: 100%;
+        height: auto;
+    }
+
+    .divFotoHuisje {
+        max-width: 302.11px;
+        max-height: 131.11px;
+    }
+
+    .huisjes {
+        margin: 0 auto;
+        max-width: 302.11px;
+        flex-direction: column;
+    }
+
+    .huisje {
+        margin-left: 0px;
+        padding-left: 0px;
+        height: auto;
+        width: 302.11px;
+        text-align: center;
+    }
+
+    .fotoHuisje:hover {
+        transform-origin: center center;
+        transform:scale(1);
+    }
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .headerdiv {
+        height: 41.76px;
+        width: 100%;
+    }
+    
+    .logoDiv {
+        max-width: 60.21px;
+        max-height: 41.76px;
+        width: 33%;
+        margin: 0 auto;
+    }
+
+    ul {
+        font-size: 15px;
+        text-align: left;
+        padding-left: 22%;
+    }
+
+    h4 {
+        border-right: none;
+        font-size: 15px;
+        color: var(--c-pirate-donkergrijs);
+        border-bottom: 1px var(--c-pirate-donkergrijs) solid;
+        padding-bottom: 5%;
+    }
+
+    h5 {
+        border-right: none;
+        font-size: 15px;
+        color: var(--c-pirate-donkergrijs);
+    }
+
+    .footer {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    footer {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    /* wegdoen */
+    
+    .lust {
+        display: none;
+    }
+
+    .lustSpeciaal {
+        display: none;
+    }
+
+    .map {
+        display: none;
+    }
+
+    h1 {
+        display: none;
+    }
+    
+    h2 {
+        display: none;
+    }
+    
+    .verdwijn {
+        display: none;
+    }
+
+    .driekleuren {
+        display: none;
+    }
+
+
+    /* verschijnen */
+
+    .hiddenGsm {
+        display: flex;
+        width: 33%;
+    }
+
+    .hiddenOtherStuff {
+        display: flex;
+        vertical-align: middle;
+        width: 33%;
+        margin-left: auto;
+    }
+
+    .logo:hover {
+        transform: none;
+        top: 0px;
+    }
+
+    .menu:hover {
+        background-color: var(--c-pirate-donkerdonkerbruin);
+    }
+
+    .profiel:hover {
+        background-color: var(--c-pirate-donkerdonkerbruin);
+    }
+
+    .lookingGlass:hover {
+        background-color: var(--c-pirate-donkerdonkerbruin);
+    }
+}
